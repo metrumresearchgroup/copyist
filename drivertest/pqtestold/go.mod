@@ -1,6 +1,8 @@
 module github.com/cockroachdb/copyist/drivertest/pqtestold
 
-go 1.16
+go 1.21
+
+toolchain go1.23.0
 
 // Use separate go.mod file so that ancient version of PQ can be tested, before
 // support was added for QueryContext, ExecContext, and BeginTx. This enables
