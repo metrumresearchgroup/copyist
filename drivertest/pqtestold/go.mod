@@ -7,7 +7,7 @@ go 1.26.3
 // testing that copyist works even when drivers do not support those functions.
 require (
 	github.com/lib/pq v1.12.3
-	github.com/metrumresearchgroup/copyist v0.0.0-00010101000000-000000000000
+	github.com/metrumresearchgroup/copyist v0.0.0
 )
 
 require (
