@@ -1,15 +1,13 @@
 module github.com/cockroachdb/copyist/drivertest/pqtestold
 
-go 1.21
-
-toolchain go1.23.0
+go 1.26
 
 // Use separate go.mod file so that ancient version of PQ can be tested, before
 // support was added for QueryContext, ExecContext, and BeginTx. This enables
 // testing that copyist works even when drivers do not support those functions.
 require (
 	github.com/cockroachdb/copyist v0.0.0-00010101000000-000000000000
-	github.com/lib/pq v1.10.2
+	github.com/lib/pq v1.12.3
 )
 
 // Reference copyist in the same repo.

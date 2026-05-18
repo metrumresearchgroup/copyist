@@ -17,12 +17,12 @@ package copyist
 import (
 	"database/sql/driver"
 	"errors"
-	"github.com/jackc/pgconn"
 	"io"
 	"math"
 	"testing"
 	"time"
 
+	"github.com/jackc/pgx/v5/pgconn"
 	"github.com/lib/pq"
 	"github.com/stretchr/testify/require"
 )

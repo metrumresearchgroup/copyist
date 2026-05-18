@@ -16,14 +16,16 @@ package pqtest
 
 import (
 	"database/sql"
-	"github.com/cockroachdb/copyist"
+	"testing"
+
 	"github.com/fortytw2/leaktest"
 	"github.com/stretchr/testify/require"
-	"testing"
+
+	"github.com/cockroachdb/copyist"
 
 	"github.com/cockroachdb/copyist/drivertest/commontest"
 
-	_ "github.com/jackc/pgx/v4/stdlib"
+	_ "github.com/jackc/pgx/v5/stdlib"
 	_ "github.com/lib/pq"
 )
 
