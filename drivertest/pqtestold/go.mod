@@ -1,6 +1,6 @@
 module github.com/metrumresearchgroup/copyist/drivertest/pqtestold
 
-go 1.26
+go 1.26.3
 
 // Use separate go.mod file so that ancient version of PQ can be tested, before
 // support was added for QueryContext, ExecContext, and BeginTx. This enables

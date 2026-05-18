@@ -1,6 +1,6 @@
 module github.com/metrumresearchgroup/copyist
 
-go 1.26
+go 1.26.3
 
 require (
 	github.com/fortytw2/leaktest v1.3.0
