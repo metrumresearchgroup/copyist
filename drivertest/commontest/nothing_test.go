@@ -15,11 +15,12 @@
 package commontest_test
 
 import (
-	"github.com/stretchr/testify/require"
 	"os"
 	"testing"
 
-	"github.com/cockroachdb/copyist"
+	"github.com/stretchr/testify/require"
+
+	"github.com/metrumresearchgroup/copyist"
 )
 
 // TestNothing does not access the database at all.

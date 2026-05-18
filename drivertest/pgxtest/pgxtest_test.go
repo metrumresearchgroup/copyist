@@ -22,11 +22,11 @@ import (
 	"github.com/jackc/pgx/v5/pgconn"
 	"github.com/stretchr/testify/require"
 
-	"github.com/cockroachdb/copyist"
+	"github.com/metrumresearchgroup/copyist"
 
 	_ "github.com/jackc/pgx/v5/stdlib"
 
-	"github.com/cockroachdb/copyist/drivertest/commontest"
+	"github.com/metrumresearchgroup/copyist/drivertest/commontest"
 )
 
 // TestMain runs all PGX driver-specific tests. To use:

@@ -1,4 +1,4 @@
-module github.com/cockroachdb/copyist
+module github.com/metrumresearchgroup/copyist
 
 go 1.26
 

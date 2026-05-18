@@ -21,9 +21,9 @@ import (
 	"github.com/fortytw2/leaktest"
 	"github.com/stretchr/testify/require"
 
-	"github.com/cockroachdb/copyist"
+	"github.com/metrumresearchgroup/copyist"
 
-	"github.com/cockroachdb/copyist/drivertest/commontest"
+	"github.com/metrumresearchgroup/copyist/drivertest/commontest"
 
 	_ "github.com/jackc/pgx/v5/stdlib"
 	_ "github.com/lib/pq"

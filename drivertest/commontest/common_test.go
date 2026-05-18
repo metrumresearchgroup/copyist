@@ -21,10 +21,11 @@ import (
 	"io"
 	"testing"
 
-	"github.com/cockroachdb/copyist"
-	"github.com/cockroachdb/copyist/drivertest/commontest"
 	"github.com/fortytw2/leaktest"
 	"github.com/stretchr/testify/require"
+
+	"github.com/metrumresearchgroup/copyist"
+	"github.com/metrumresearchgroup/copyist/drivertest/commontest"
 
 	_ "github.com/lib/pq"
 )

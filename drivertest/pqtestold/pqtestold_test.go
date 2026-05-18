@@ -21,19 +21,19 @@ package pqtestold
 import (
 	"testing"
 
-	"github.com/cockroachdb/copyist/drivertest/commontest"
 	_ "github.com/lib/pq"
+
+	"github.com/metrumresearchgroup/copyist/drivertest/commontest"
 )
 
 // TestMain runs all PQ driver-specific tests. To use:
 //
-//   1. Run the tests with the "-record" command-line flag. This will run the
-//      tests against the real PQ driver and create recording files in the
-//      testdata directory. This tests generation of recordings.
-//   2. Run the test without the "-record" flag. This will run the tests against
-//      the copyist driver that plays back the recordings created by step #1.
-//      This tests playback of recording.
-//
+//  1. Run the tests with the "-record" command-line flag. This will run the
+//     tests against the real PQ driver and create recording files in the
+//     testdata directory. This tests generation of recordings.
+//  2. Run the test without the "-record" flag. This will run the tests against
+//     the copyist driver that plays back the recordings created by step #1.
+//     This tests playback of recording.
 func TestMain(m *testing.M) {
 	commontest.RunAllTests(m, "postgres", commontest.PostgresDataSourceName, commontest.PostgresDockerArgs)
 }
